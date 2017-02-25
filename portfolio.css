@@ -1,0 +1,54 @@
+html{
+	margin: 10%;
+	margin-top:5%;
+	Font-size:20px;
+	/*background-image: url("http://media.istockphoto.com/photos/grey-abstract-background-picture-id479845908?s=235x235");
+	background-size: cover;
+	background-repeat: ;*/
+
+}
+.space{
+	margin: 0 auto;
+}
+
+.options {
+	float: right;
+	overflow: hidden;
+	list-style: none;
+}
+
+.options > li {
+	float: left;
+	margin-right: 20px;
+	text-decoration: underline;
+}
+
+.options> li:last-child {
+	margin-right: 0;
+}
+
+.options > li > a {
+	text-decoration: none;
+	color: inherit;
+	line-height: 70px;
+}
+
+.options > li > a:hover {
+	opacity: 0.5;
+}
+
+
+p{
+	color:solid black;
+	margin:2;
+}
+
+h1{
+  margin-top: 10%;
+	margin-bottom:5;
+	color:solid grey;
+}
+
+.profile_pic{
+	float:right;
+}
